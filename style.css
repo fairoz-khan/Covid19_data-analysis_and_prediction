@@ -1,0 +1,73 @@
+#nav{
+    /* position: -webkit-sticky; */
+    position: relative;
+    top: 0;
+    background-color: rgba(4, 2, 17, 0.8);
+}
+nav > ul{
+    margin-top: 10px;
+}
+nav > ul > li{
+    font-size: 20px;
+    text-align: center;
+}
+nav > ul > li > a > p{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav > ul > li > a > p:hover{
+    color: rgba(248, 250, 248, 0.5);
+}
+#Heading{
+    color:red;
+    font-weight:600;
+    font-size:24px;
+    float: left;
+    text-shadow: 1px solid rgb(73, 10, 124);
+}
+#icon{
+    width: 80px;
+    height: 80px;
+    border-width: 5px solid black;
+    border-radius: 50px;
+    float: center;
+    
+}
+#body{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+h1{
+    color: rgb(47, 207, 207);
+    text-align: center;
+    size: 12px;
+}
+h2{
+    color: chocolate;
+    text-size-adjust: inherit;
+}
+.fill_up{
+    height: 20px;
+}
+.lablebyme{
+    font-size: 20px;
+    margin-top: 10px;
+    color:Green;
+    text-align:center;
+    font-weight: 600;
+}
+.databyme{
+    font-size: 16px;
+    margin-top: 10px;
+    color:black;
+    text-align:center;
+}
+button{
+    width:100px;
+    margin: 5px;
+}
+.draw_line{
+    height: 1px;
+    background-color: black;
+}
+
