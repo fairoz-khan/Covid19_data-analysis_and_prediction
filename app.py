@@ -351,4 +351,4 @@ def displayClick(btn1, btn2, btn3):
 # def update_output(value):
 #     return (indian.animate_bar_chart())
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)

@@ -13,6 +13,7 @@ import seaborn as sns
 from app import Indian_data as Inddata
 import chart_studio.plotly as py
 from world import World_data as wd
+from makerp import makecnt as rp
 # init_notebook_mode(connected=True)
 
 obj_ofind = Inddata()
@@ -42,8 +43,8 @@ death_f_data = pd.DataFrame({'Country':Countries,
                             'value':val_death})
 recover_f_data = pd.DataFrame({'Country':Countries, 
                             'value':val_cured})
-all_case = pd.DataFrame({'Country':confirm_f_data['Country'],'value':'Confirmed:'+confirm_f_data['value'].apply(lambda x:str(x))
-                            +' Cured:'+recover_f_data['value'].apply(lambda x:str(x))+' Death:'+death_f_data['value'].apply(lambda x:str(x))
+all_case = pd.DataFrame({'Country':confirm_f_data['Country'],'value':'Confirmed:'+confirm_f_data['value'].apply(rp)
+                            +' Cured:'+recover_f_data['value'].apply(rp)+' Death:'+death_f_data['value'].apply(rp)
                         })
                 
 def show_map():
